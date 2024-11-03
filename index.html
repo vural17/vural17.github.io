@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Verileri</title>
+</head>
+<body>
+    <h1>Telegram Verileri Gönder</h1>
+    <form id="dataForm">
+        <input type="text" id="dataInput" placeholder="Veri girin" required>
+        <button type="submit">Gönder</button>
+    </form>
+    <script>
+        document.getElementById('dataForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const data = document.getElementById('dataInput').value;
+            // Burada Telegram'a gönderme kodu gelecek
+        });
+    </script>
+</body>
+</html>
